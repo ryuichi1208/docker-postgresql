@@ -32,7 +32,7 @@ func main() {
 
 func ReadCSV() {
 	// ファイルを開く
-	file, err := os.Open(`./data.csv`)
+	file, err := os.Open(`test.csv`)
 	if err != nil {
 		log.Fatal(err)
 	}
